@@ -4,6 +4,11 @@ This repository contains public installers for **SchoolEverywhere Parent**, a pr
 
 The downloads contain no usernames, passwords, student information, reports, or family files. Each family enters its own details locally during first-time setup.
 
+## Installation guides
+
+- [Detailed Arabic installation guide — دليل التثبيت بالعربية](INSTALLATION-GUIDE-AR.md)
+- The shorter English instructions remain below.
+
 ## Easiest installation
 
 ### macOS
