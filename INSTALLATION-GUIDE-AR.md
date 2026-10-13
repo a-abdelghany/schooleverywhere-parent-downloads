@@ -34,23 +34,17 @@
 
 </div>
 
-> 📷 **مكان Screenshot 1 — Mac:** صورة توضح ملف `SchoolEverywhere-Parent-Mac-Helper.zip` داخل مجلد `Downloads`.
-
 ### الخطوة 2: فك ضغط الملف
 
 1. افتح مجلد `Downloads`.
 2. اضغط مرتين على ملف `SchoolEverywhere-Parent-Mac-Helper.zip`.
 3. سيظهر ملف باسم `Install-SchoolEverywhere-Mac.sh`.
 
-> 📷 **مكان Screenshot 2 — Mac:** صورة توضح ملف `Install-SchoolEverywhere-Mac.sh` بعد فك الضغط.
-
 ### الخطوة 3: فتح Terminal
 
 1. اضغط `Command + Space` لفتح `Spotlight`.
 2. اكتب `Terminal`.
 3. اضغط `Return` لفتح التطبيق.
-
-> 📷 **مكان Screenshot 3 — Mac:** صورة لنتيجة البحث عن `Terminal` في `Spotlight`.
 
 ### الخطوة 4: تشغيل ملف التثبيت
 
@@ -78,8 +72,6 @@ bash /Users/your-name/Downloads/Install-SchoolEverywhere-Mac.sh
 
 </div>
 
-> 📷 **مكان Screenshot 4 — Mac:** صورة لنافذة `Terminal` بعد سحب ملف `.sh` وقبل الضغط على `Return`.
-
 ### الخطوة 5: انتظار اكتمال التثبيت
 
 سيقوم الـ `Helper` بالآتي تلقائياً:
@@ -102,8 +94,6 @@ Opening SchoolEverywhere Parent...
 
 </div>
 
-> 📷 **مكان Screenshot 5 — Mac:** صورة لرسالة `Download verified` و`Installed successfully` داخل `Terminal`.
-
 ### إذا ظهرت رسالة من macOS عن Malware
 
 النسخة الحالية غير موقعة بـ `Apple Developer ID`، ولذلك قد يعرض macOS تحذيراً رغم أن الملف تم فحصه بواسطة الـ `Helper`.
@@ -118,10 +108,6 @@ Opening SchoolEverywhere Parent...
 6. اضغط `Open Anyway`.
 7. وافق على رسالة التأكيد الأخيرة.
 
-> 📷 **مكان Screenshot 6 — Mac:** رسالة `Apple could not verify...`.
-
-> 📷 **مكان Screenshot 7 — Mac:** مكان زر `Open Anyway` داخل `Privacy & Security`.
-
 ### طريقة بديلة: تنزيل DMG مباشرة
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
@@ -131,8 +117,6 @@ Opening SchoolEverywhere Parent...
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
 5. افتح البرنامج من `Applications`.
-
-> 📷 **مكان Screenshot 8 — Mac:** نافذة `DMG` وتوضيح سحب التطبيق إلى `Applications`.
 
 ---
 
@@ -154,8 +138,6 @@ Opening SchoolEverywhere Parent...
 
 </div>
 
-> 📷 **مكان Screenshot 1 — Windows:** صورة توضح ملف `SchoolEverywhere-Parent-Windows-Helper.zip` داخل `Downloads`.
-
 ### الخطوة 2: فك ضغط الملف
 
 1. افتح مجلد `Downloads`.
@@ -164,18 +146,12 @@ Opening SchoolEverywhere Parent...
 4. اضغط `Extract`.
 5. افتح المجلد الناتج.
 
-> 📷 **مكان Screenshot 2 — Windows:** نافذة `Extract All`.
-
 ### الخطوة 3: تشغيل Windows Helper
 
 1. اضغط مرتين على `Install-SchoolEverywhere-Windows.bat`.
 2. ستفتح نافذة أوامر واحدة.
 3. سيقوم الـ `Helper` بتنزيل البرنامج وفحص `SHA-256 checksum`.
 4. بعد نجاح الفحص، سيفتح برنامج التثبيت تلقائياً.
-
-> 📷 **مكان Screenshot 3 — Windows:** ملف `Install-SchoolEverywhere-Windows.bat` داخل المجلد بعد فك الضغط.
-
-> 📷 **مكان Screenshot 4 — Windows:** نافذة الأوامر وبها رسالة `Download verified`.
 
 ### إذا ظهرت رسالة Windows protected your PC
 
@@ -185,18 +161,12 @@ Opening SchoolEverywhere Parent...
 2. تأكد أن اسم التطبيق هو SchoolEverywhere Parent.
 3. اضغط `Run anyway`.
 
-> 📷 **مكان Screenshot 5 — Windows:** نافذة `Windows protected your PC` قبل الضغط على `More info`.
-
-> 📷 **مكان Screenshot 6 — Windows:** زر `Run anyway` بعد الضغط على `More info`.
-
 ### الخطوة 4: إكمال برنامج التثبيت
 
 1. اتبع خطوات الـ `Setup`.
 2. يمكنك اختيار إنشاء اختصار على `Desktop`.
 3. اضغط `Install`.
 4. بعد انتهاء التثبيت، اترك خيار فتح SchoolEverywhere Parent مفعلاً واضغط `Finish`.
-
-> 📷 **مكان Screenshot 7 — Windows:** شاشة `Setup` قبل الضغط على `Install`.
 
 ### طريقة بديلة: تنزيل Windows Setup مباشرة
 
@@ -225,8 +195,6 @@ Opening SchoolEverywhere Parent...
 
 اضغط `Find children from LMS` إذا أردت أن يبحث البرنامج عن أسماء الأبناء المرتبطين بالحساب.
 
-> 📷 **مكان Screenshot 8 — Setup:** شاشة `Account` بعد إخفاء اسم المستخدم وكلمة المرور في الصورة.
-
 ### 2. School
 
 راجع أسماء الأبناء، ثم أدخل اختيارات المدرسة كما تظهر داخل الـ `LMS`، مثل:
@@ -243,8 +211,6 @@ Opening SchoolEverywhere Parent...
 
 > **خصوصية:** لا تشارك Screenshot يحتوي على `Username` أو `Password` أو أسماء الطلاب أو أي معلومات مدرسية خاصة.
 
-> 📷 **مكان Screenshot 9 — Setup:** شاشة `School` ببيانات تجريبية أو بعد إخفاء بيانات الطالب.
-
 ### 3. Schedule
 
 1. فعّل `Enable scheduled updates`.
@@ -254,8 +220,6 @@ Opening SchoolEverywhere Parent...
 
 لكي يعمل التحديث في موعده، يجب أن يكون الجهاز مفتوحاً، متصلاً بالإنترنت، وغير موجود في وضع `Sleep`.
 
-> 📷 **مكان Screenshot 10 — Setup:** شاشة `Schedule` مع مثال لموعدين يومياً.
-
 ### 4. أول تحديث
 
 بعد فتح الـ `Dashboard`:
@@ -263,8 +227,6 @@ Opening SchoolEverywhere Parent...
 1. اضغط `Update now`.
 2. انتظر حتى ينتهي التحديث الأول؛ قد يستغرق عدة دقائق لأنه يجمع التاريخ السابق وينظم الملفات.
 3. لا تغلق البرنامج أو تجعل الجهاز يدخل وضع `Sleep` أثناء التحديث الأول.
-
-> 📷 **مكان Screenshot 11 — Dashboard:** مكان زر `Update now`.
 
 ---
 
@@ -279,8 +241,6 @@ Opening SchoolEverywhere Parent...
 - إذا كان جمع بيانات المدرسة يعمل، ينتظر البرنامج حتى ينتهي قبل السماح بتحديث التطبيق.
 
 على Windows، سيفتح الـ `Installer` بعد الموافقة. على macOS، سيفتح ملف `DMG`؛ أغلق النسخة القديمة ثم اسحب النسخة الجديدة إلى `Applications` واختر `Replace`.
-
-> 📷 **مكان Screenshot 12 — Update:** شريط وجود إصدار جديد وزر `Review and update`.
 
 ---
 
@@ -318,24 +278,5 @@ Opening SchoolEverywhere Parent...
 ### نسيت كلمة المرور أو تغيرت
 
 افتح `Settings` من الـ `Dashboard`، ثم حدّث `Username` أو `Password` واستخدم `Save and test login`.
-
----
-
-## قائمة Screenshots المطلوبة لإكمال الدليل
-
-يمكن إضافة الصور لاحقاً دون تغيير النص. الصور الأكثر أهمية هي:
-
-1. ملفات Mac Helper قبل وبعد فك الضغط.
-2. أمر `bash` داخل `Terminal`.
-3. رسالة نجاح Mac Helper.
-4. تحذير macOS وزر `Open Anyway`.
-5. ملفات Windows Helper وخيار `Extract All`.
-6. رسالة نجاح Windows Helper.
-7. تحذير `SmartScreen` وزر `Run anyway`.
-8. شاشة `Account` ببيانات تجريبية.
-9. شاشة `School` بدون معلومات طالب حقيقية.
-10. شاشة `Schedule`.
-11. مكان زر `Update now`.
-12. إشعار تحديث التطبيق.
 
 </div>
