@@ -8,16 +8,18 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ### macOS
 
-1. Download `Install-SchoolEverywhere-Mac.sh` from the latest release.
-2. Open **Terminal**.
-3. Type `bash `, including the space, drag the downloaded `.sh` file into Terminal, and press **Return**.
-4. The helper downloads the pinned app, verifies its SHA-256 checksum, installs it in the current user's `Applications` folder, and opens it.
+1. Open the latest **Release**, expand **Assets**, and download `SchoolEverywhere-Parent-Mac-Helper.zip`. Do not save the script from the repository's source-code page; that can save a GitHub webpage instead of the script.
+2. Open the ZIP to extract `Install-SchoolEverywhere-Mac.sh`.
+3. Open **Terminal**.
+4. Type `bash `, including the space, drag the extracted `.sh` file into Terminal, and press **Return**.
+5. The helper downloads the pinned app, verifies its SHA-256 checksum, installs it in the current user's `Applications` folder, and opens it.
 
 ### Windows
 
-1. Download `Install-SchoolEverywhere-Windows.bat` from the latest release.
-2. Double-click it.
-3. The helper downloads the pinned installer, verifies its SHA-256 checksum, and opens it.
+1. Open the latest **Release**, expand **Assets**, and download `SchoolEverywhere-Parent-Windows-Helper.zip`.
+2. Open the ZIP and extract `Install-SchoolEverywhere-Windows.bat`.
+3. Double-click it.
+4. The helper downloads the pinned installer, verifies its SHA-256 checksum, and opens it.
 
 ## Direct downloads
 
