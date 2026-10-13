@@ -1,0 +1,3 @@
+b99db58bca52d9cbd22fbdaf5dd062ff00911ad6cc9424d17ff893f616b91986  SchoolEverywhere-Parent-macOS.dmg
+15dc35859bdd029ced30ebffef6fdb92fd736f34e4ad051234d3c892e204bf48  SchoolEverywhere-Parent-Windows-Setup.exe
+010b461fe3657b4521783a5a99068ee9a723d46a12c73298fa7f5981322a1fe0  SchoolEverywhere-Parent-Windows.zip
