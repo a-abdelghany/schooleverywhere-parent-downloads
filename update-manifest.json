@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "latestVersion": "1.2.6",
+  "publishedAt": "2026-10-13T12:43:45+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.6",
+  "releaseNotes": [
+    "Adds consent-based application update checks and verified installer downloads.",
+    "Keeps all family credentials, schedules, reports, and local assignment status in place."
+  ],
+  "platforms": {
+    "macos": {
+      "kind": "dmg",
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.6/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "f114c75ab43309c4b35d9cc4f95b2ef8a4e7b1611fa42f09c959cc76d2df4cf1",
+      "size": 13976285
+    },
+    "windows": {
+      "kind": "installer",
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.6/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "2637db429ce791eb27b4772bbe35d5124db04ef0d8ed12574db688f4a4f8ed78",
+      "size": 11691207
+    }
+  }
+}

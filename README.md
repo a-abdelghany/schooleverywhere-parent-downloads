@@ -25,9 +25,15 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 The release also contains the macOS DMG, the recommended Windows installer, and the Windows portable ZIP.
 
+Version 1.2.6 adds consent-based application updates. After installing this release, the app checks for newer versions at startup and no more than once every 24 hours. It shows the release notes and always asks the parent before downloading or opening an installer. Existing settings, credentials, student history, saved resources, schedules, and local assignment status remain on the computer during an update.
+
+Windows opens the verified per-user installer after confirmation. macOS opens a verified DMG; because the current app is not yet Apple-notarized, the parent must quit the old copy and drag the replacement to Applications. Version 1.2.5 and older do not contain the updater, so they must be upgraded to 1.2.6 using the helper or direct installer once.
+
 ## Security note
 
 The helper scripts use HTTPS and refuse to open a download unless it matches the pinned SHA-256 checksum. They do not ask for or store GitHub credentials.
+
+In-app updates apply the same file-size and SHA-256 verification before opening an installer. The public `update-manifest.json` contains only release versions, notes, download URLs, sizes, and checksums; it never contains family or LMS data.
 
 The current applications are not yet signed with an Apple Developer ID or a Windows Authenticode certificate. These verified helper downloads improve installation consistency but are not a replacement for platform signing and notarization. macOS or Windows may still apply additional security checks.
 
