@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.7/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.8/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.7/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.8/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.7/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.8/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.7/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.8/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.7/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.8/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -215,10 +215,14 @@ Opening SchoolEverywhere Parent...
 
 1. فعّل `Enable scheduled updates`.
 2. اختر الأيام والأوقات المناسبة.
-3. الأوقات تستخدم توقيت الجهاز الحالي.
+3. الأوقات المعروضة تستخدم توقيت ولي الأمر. يكتشف البرنامج توقيت الجهاز تلقائياً، ويمكن تغييره من `Your timezone` ثم الضغط على `Save timezone`.
 4. اضغط `Save schedule`.
 
 لكي يعمل التحديث في موعده، يجب أن يكون الجهاز مفتوحاً، متصلاً بالإنترنت، وغير موجود في وضع `Sleep`.
+
+خيار `After school + 10 minutes` يتبع نهاية آخر حصة في جدول المدرسة بتوقيت `Africa/Cairo`، ثم يضيف عشر دقائق. أما `Fixed time`، مثل الساعة 10 مساءً، فيستخدم توقيت ولي الأمر. تظل تواريخ الحضور والأسابيع الدراسية مرتبطة بتاريخ المدرسة في القاهرة.
+
+إذا فات موعد تحديث مجدول أو لم ينتهِ بنجاح، سيظهر تنبيه في الـ `Dashboard`. اضغط `Update now` لتحديث البيانات؛ يختفي التنبيه بعد نجاح التحديث. وفي شاشة `Resources` يوجد زر واحد باسم `Open`: يفتح الملف المحفوظ من الجهاز، أو يفتح رابط التسجيل والموارد الموجودة على الإنترنت.
 
 ### 4. أول تحديث
 

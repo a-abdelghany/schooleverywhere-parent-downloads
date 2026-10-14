@@ -1,25 +1,26 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.7",
-  "publishedAt": "2026-10-14T09:15:01+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.7",
+  "latestVersion": "1.2.8",
+  "publishedAt": "2026-10-14T11:19:38+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.8",
   "releaseNotes": [
-    "Groups assignments, teacher updates, mailbox messages, and resources into collapsible school weeks with item counts.",
-    "Classifies resources as Recordings, Material, H.W., or Other and adds individual shared Drive file links.",
-    "Fixes HTTPS certificate verification for application update checks and installer downloads."
+    "Converts lesson, attendance, deadline and update times to the parent timezone, with automatic detection and a Settings override.",
+    "Adds a missed-scheduled-update alert and a single Open action for resources.",
+    "Fixes collection failures caused by missing teacher or sender names.",
+    "Schedules after-school checks ten minutes after the Cairo timetable ends; fixed checks follow parent time."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.7/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "6d80a0aa1f083e1a3cf4160701869867800b2e142014835a83727d7ae235cbe2",
-      "size": 14106621
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.8/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "7ada447d893eb927ed0aa24489fbd16b82d41a48f1a68010c8dd38516683eaf1",
+      "size": 14102674
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.7/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "5b1c97a25701c82c8ae279d72eb199b5b866e5a8ac642a65df26e342693dc7ef",
-      "size": 11805322
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.8/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "b380bfa3f03bface8a0bb1f215b8f0dad4ecc7d5f526fa8ad8f78b128230912e",
+      "size": 11818467
     }
   }
 }
