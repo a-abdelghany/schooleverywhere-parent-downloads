@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.7** adds collapsible weekly panels with item counts throughout the dashboard, classifies resources as Recordings / Material / H.W. / Other, exposes individual shared Drive file links, and fixes HTTPS certificate verification for application updates. The first school update after upgrading refreshes resource metadata once before returning to normal incremental collection.
+
 The release also contains the macOS DMG, the recommended Windows installer, and the Windows portable ZIP.
 
 Version 1.2.6 adds consent-based application updates. After installing this release, the app checks for newer versions at startup and no more than once every 24 hours. It shows the release notes and always asks the parent before downloading or opening an installer. Existing settings, credentials, student history, saved resources, schedules, and local assignment status remain on the computer during an update.

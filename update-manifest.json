@@ -1,24 +1,25 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.6",
-  "publishedAt": "2026-10-13T12:43:45+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.6",
+  "latestVersion": "1.2.7",
+  "publishedAt": "2026-10-14T09:15:01+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.7",
   "releaseNotes": [
-    "Adds consent-based application update checks and verified installer downloads.",
-    "Keeps all family credentials, schedules, reports, and local assignment status in place."
+    "Groups assignments, teacher updates, mailbox messages, and resources into collapsible school weeks with item counts.",
+    "Classifies resources as Recordings, Material, H.W., or Other and adds individual shared Drive file links.",
+    "Fixes HTTPS certificate verification for application update checks and installer downloads."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.6/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "f114c75ab43309c4b35d9cc4f95b2ef8a4e7b1611fa42f09c959cc76d2df4cf1",
-      "size": 13976285
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.7/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "6d80a0aa1f083e1a3cf4160701869867800b2e142014835a83727d7ae235cbe2",
+      "size": 14106621
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.6/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "2637db429ce791eb27b4772bbe35d5124db04ef0d8ed12574db688f4a4f8ed78",
-      "size": 11691207
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.7/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "5b1c97a25701c82c8ae279d72eb199b5b866e5a8ac642a65df26e342693dc7ef",
+      "size": 11805322
     }
   }
 }
