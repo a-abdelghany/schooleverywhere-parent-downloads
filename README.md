@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.10** fixes the Settings update button stopping after confirmation. When upgrading from 1.2.8 or 1.2.9, use the Dashboard's **Review and update** banner or the helpers: the old Settings button remains affected until this version is installed. Version 1.2.8 remains available for manual rollback.
+
 Version **1.2.9** connects LMS File/Voice attachments to their activity cards, preserving original filenames and opening saved copies directly. It also prevents duplicate file-open actions after refreshing cards. Version 1.2.8 remains available from its existing release if a manual rollback is needed.
 
 Version **1.2.8** displays structured school times in the parent's timezone, with automatic device detection and a manual override in Settings. It adds missed-schedule alerts, simplifies resources to one Open action, and fixes collection when teacher/sender fields are empty. After-school checks follow the Cairo timetable plus ten minutes; fixed checks follow parent time. School dates remain anchored to Cairo.
