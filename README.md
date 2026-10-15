@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.9** connects LMS File/Voice attachments to their activity cards, preserving original filenames and opening saved copies directly. It also prevents duplicate file-open actions after refreshing cards. Version 1.2.8 remains available from its existing release if a manual rollback is needed.
+
 Version **1.2.8** displays structured school times in the parent's timezone, with automatic device detection and a manual override in Settings. It adds missed-schedule alerts, simplifies resources to one Open action, and fixes collection when teacher/sender fields are empty. After-school checks follow the Cairo timetable plus ten minutes; fixed checks follow parent time. School dates remain anchored to Cairo.
 
 Version **1.2.7** adds collapsible weekly panels with item counts throughout the dashboard, classifies resources as Recordings / Material / H.W. / Other, exposes individual shared Drive file links, and fixes HTTPS certificate verification for application updates. The first school update after upgrading refreshes resource metadata once before returning to normal incremental collection.
