@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.11",
-  "publishedAt": "2026-10-15T08:09:32+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.11",
+  "latestVersion": "1.2.12",
+  "publishedAt": "2026-10-15T08:36:23+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.12",
   "releaseNotes": [
-    "Automatically quits the Mac app after the verified update DMG is successfully opened.",
-    "Keeps the app running and shows an error if macOS cannot open the verified installer.",
-    "Keeps installation instructions visible in the browser after the helper closes."
+    "Highlights the ongoing lesson when you open the weekly timetable.",
+    "Uses the school's Cairo timezone, regardless of the parent's location.",
+    "Checks only when viewing the timetable; no background timer or LMS requests."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.11/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "ea1125eca28cb2173e6e72193366317d129e8c819b641e9d3b3081f15c9bc381",
-      "size": 14109770
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.12/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "54545ed21b6b9d8e61176be0ce4b08abaf414b9404cc9cfea69fe71c729a5565",
+      "size": 14107490
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.11/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "1b1f730b31abeb9f66bb518f6150cfc9faaa83b67feacaa19f2dff8997d14871",
-      "size": 11823666
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.12/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "cdae4527360964e43064969d7eb078dd20ce226ab1cd51b039b336a6555f04d2",
+      "size": 11813704
     }
   }
 }
