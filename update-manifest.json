@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.10",
-  "publishedAt": "2026-10-15T07:19:10+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.10",
+  "latestVersion": "1.2.11",
+  "publishedAt": "2026-10-15T08:09:32+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.11",
   "releaseNotes": [
-    "Fixes the Settings update button stopping after confirmation without starting the installer download.",
-    "Restores the update button after errors or opening the macOS installer so the action can be retried.",
-    "Includes the 1.2.9 fix showing saved LMS attachments on activity cards."
+    "Automatically quits the Mac app after the verified update DMG is successfully opened.",
+    "Keeps the app running and shows an error if macOS cannot open the verified installer.",
+    "Keeps installation instructions visible in the browser after the helper closes."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.10/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "af2cc594fe8d2d5b2ac042ac46f8204d9dec750b24865d12440919df55b2324c",
-      "size": 14105189
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.11/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "ea1125eca28cb2173e6e72193366317d129e8c819b641e9d3b3081f15c9bc381",
+      "size": 14109770
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.10/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "8b119f6ab49982743d71eaf34702fa2d9bc63359a6cad8015b6cf21e531eb63e",
-      "size": 11817290
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.11/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "1b1f730b31abeb9f66bb518f6150cfc9faaa83b67feacaa19f2dff8997d14871",
+      "size": 11823666
     }
   }
 }

@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.10/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.11/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.10/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.11/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.10/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.11/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.10/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.11/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.10/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.11/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -236,7 +236,7 @@ Opening SchoolEverywhere Parent...
 
 ## تحديث التطبيق مستقبلاً
 
-إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.10`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، ويُصلح هذا الخطأ بعد تثبيت `1.2.10`.
+إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.11`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
 
 بدءاً من الإصدار `1.2.6`:
 
@@ -246,7 +246,9 @@ Opening SchoolEverywhere Parent...
 - يحافظ على بيانات الدخول، والجدول، وسجل الطلاب، والملفات، وحالة الواجبات المحلية.
 - إذا كان جمع بيانات المدرسة يعمل، ينتظر البرنامج حتى ينتهي قبل السماح بتحديث التطبيق.
 
-على Windows، سيفتح الـ `Installer` بعد الموافقة. على macOS، سيفتح ملف `DMG`؛ أغلق النسخة القديمة ثم اسحب النسخة الجديدة إلى `Applications` واختر `Replace`.
+على Windows، سيفتح الـ `Installer` بعد الموافقة. بعد تثبيت `1.2.11`، ستقوم التحديثات التالية على macOS بتنزيل ملف `DMG` وفحصه وفتحه ثم إغلاق التطبيق تلقائياً. اسحب النسخة الجديدة إلى نفس مجلد `Applications` الذي تستخدمه للنسخة الحالية، واختر `Replace`، ثم افتح التطبيق المثبت. الضغط مرتين على التطبيق داخل `DMG` يشغّل نسخة مؤقتة ولا يثبت التحديث.
+
+عند الترقية من إصدار أقدم إلى `1.2.11`، قد تحتاج إلى الضغط على `Quit app` يدوياً للمرة الأخيرة قبل استبدال التطبيق. لا تُغلق النسخة الحالية تلقائياً إذا فشل فتح ملف `DMG`؛ سيظهر خطأ مع إمكانية إعادة المحاولة.
 
 ---
 

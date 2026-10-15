@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.11** automatically quits the Mac helper after successfully opening a verified update DMG and leaves installation instructions visible in the browser. If opening fails, the app stays running. Install the replacement in the same Applications folder before opening it; running directly inside the DMG does not install the update. This automatic quit behavior applies to future updates after 1.2.11 has been installed.
+
 Version **1.2.10** fixes the Settings update button stopping after confirmation. When upgrading from 1.2.8 or 1.2.9, use the Dashboard's **Review and update** banner or the helpers: the old Settings button remains affected until this version is installed. Version 1.2.8 remains available for manual rollback.
 
 Version **1.2.9** connects LMS File/Voice attachments to their activity cards, preserving original filenames and opening saved copies directly. It also prevents duplicate file-open actions after refreshing cards. Version 1.2.8 remains available from its existing release if a manual rollback is needed.
