@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.12/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.13/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.12/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.13/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.12/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.13/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.12/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.13/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.12/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.13/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -222,7 +222,17 @@ Opening SchoolEverywhere Parent...
 
 خيار `After school + 10 minutes` يتبع نهاية آخر حصة في جدول المدرسة بتوقيت `Africa/Cairo`، ثم يضيف عشر دقائق. أما `Fixed time`، مثل الساعة 10 مساءً، فيستخدم توقيت ولي الأمر. تظل تواريخ الحضور والأسابيع الدراسية مرتبطة بتاريخ المدرسة في القاهرة.
 
-إذا فات موعد تحديث مجدول أو لم ينتهِ بنجاح، سيظهر تنبيه في الـ `Dashboard`. اضغط `Update now` لتحديث البيانات؛ يختفي التنبيه بعد نجاح التحديث. وفي شاشة `Resources` يوجد زر واحد باسم `Open`: يفتح الملف المحفوظ من الجهاز، أو يفتح رابط التسجيل والموارد الموجودة على الإنترنت.
+إذا فات موعد تحديث مجدول أو لم ينتهِ بنجاح، سيظهر تنبيه في الـ `Dashboard` وسيحاول البرنامج تعويضه تلقائياً عند فتح الصفحة. يختفي التنبيه بعد نجاح التحديث. وفي شاشة `Resources` يوجد زر واحد باسم `Open`: يفتح الملف المحفوظ من الجهاز، أو يفتح رابط التسجيل والموارد الموجودة على الإنترنت.
+
+### تحديث بيانات المدرسة عند فتح الصفحة
+
+من `Settings` ثم `Schedule`، يمكنك تفعيل `Refresh automatically when opening the dashboard` ثم الضغط على `Save live refresh`. هذا الخيار مغلق افتراضياً. عند تفعيله، فتح صفحة الـ `Dashboard` أو إعادة تحميلها يبدأ فحصاً للبيانات الجديدة باستخدام التحديث المعتاد، دون إعادة تنزيل الملفات غير المتغيرة. تظل قواعد المراجعة الأسبوعية و`Student Marks` كما هي.
+
+توجد فترة انتظار `Cooldown` مدتها خمس دقائق بعد انتهاء آخر تحديث، سواء نجح أو فشل، لمنع تكرار الطلبات عند إعادة تحميل الصفحة أو فتح أكثر من `Tab`. إذا كان هناك تحديث يعمل بالفعل، ينتظر البرنامج نفس التحديث ولا يبدأ نسخة ثانية. التنقل بين أقسام الـ `Dashboard` لا يبدأ تحديثاً جديداً. يمكنك استخدام `Update now` يدوياً دون انتظار الـ `Cooldown`.
+
+أثناء الجلب ستظهر رسالة `Please wait while we fetch the latest updates for you…`. يمكنك الضغط على `View saved data` لعرض البيانات المحفوظة مع استمرار التحديث في الخلفية. بعد انتهائه، تتحدث الصفحة تلقائياً. إذا فشل التحديث أو لم يتوفر اتصال، تظل البيانات المحفوظة متاحة ويظهر تنبيه. تعويض المواعيد المجدولة الفائتة يعمل عند فتح الصفحة حتى لو كان خيار التحديث عند الفتح مغلقاً، مع الالتزام بنفس الـ `Cooldown`.
+
+هذا الخيار يحدّث بيانات المدرسة فقط، وليس إصدار التطبيق.
 
 ### 4. أول تحديث
 
@@ -236,7 +246,7 @@ Opening SchoolEverywhere Parent...
 
 ## تحديث التطبيق مستقبلاً
 
-إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.12`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
+إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.13`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
 
 بدءاً من الإصدار `1.2.6`:
 

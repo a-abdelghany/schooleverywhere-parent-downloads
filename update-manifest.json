@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.12",
-  "publishedAt": "2026-10-15T08:36:23+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.12",
+  "latestVersion": "1.2.13",
+  "publishedAt": "2026-10-15T13:26:42+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.13",
   "releaseNotes": [
-    "Highlights the ongoing lesson when you open the weekly timetable.",
-    "Uses the school's Cairo timezone, regardless of the parent's location.",
-    "Checks only when viewing the timetable; no background timer or LMS requests."
+    "Optional automatic school refresh when opening the dashboard, with a five-minute cooldown across browser tabs and reloads.",
+    "Automatically catches up missed scheduled updates; manual Update now remains available.",
+    "Shows a fetching screen with a View saved data option and reloads the dashboard when the update finishes."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.12/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "54545ed21b6b9d8e61176be0ce4b08abaf414b9404cc9cfea69fe71c729a5565",
-      "size": 14107490
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.13/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "d1078880543d16392d25e00b469dc735b83fe2a6f88e5d4d38a3deda60f831ae",
+      "size": 14110932
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.12/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "cdae4527360964e43064969d7eb078dd20ce226ab1cd51b039b336a6555f04d2",
-      "size": 11813704
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.13/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "167c29fb44a0120c35c40f3be42673ab4be1f03385611916d0039a79be82f05f",
+      "size": 11824458
     }
   }
 }

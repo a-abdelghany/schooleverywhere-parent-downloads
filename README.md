@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.13** adds optional live school refresh on dashboard load with a five-minute cooldown across reloads and browser tabs. Enable **Refresh automatically when opening the dashboard** in Settings → Schedule and select **Save live refresh**. Missed scheduled updates are caught up automatically, even with live refresh off. A fetching screen lets you select **View saved data** while the update continues; **Update now** remains available manually. The cooldown starts again when a collection finishes, including a failed attempt. Existing weekly reconciliation and marks-refresh rules are unchanged.
+
 Version **1.2.12** highlights the ongoing lesson when you open the weekly timetable, using the school's Cairo timezone. It adds no background timer or extra LMS requests.
 
 Version **1.2.11** automatically quits the Mac helper after successfully opening a verified update DMG and leaves installation instructions visible in the browser. If opening fails, the app stays running. Install the replacement in the same Applications folder before opening it; running directly inside the DMG does not install the update. This automatic quit behavior applies to future updates after 1.2.11 has been installed.
