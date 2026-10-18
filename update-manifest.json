@@ -1,25 +1,26 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.13",
-  "publishedAt": "2026-10-15T13:26:42+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.13",
+  "latestVersion": "1.2.14",
+  "publishedAt": "2026-10-18T14:26:15+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.14",
   "releaseNotes": [
-    "Optional automatic school refresh when opening the dashboard, with a five-minute cooldown across browser tabs and reloads.",
-    "Automatically catches up missed scheduled updates; manual Update now remains available.",
-    "Shows a fetching screen with a View saved data option and reloads the dashboard when the update finishes."
+    "Adds Student login with the tae identifier; Parent login continues to use pae.",
+    "Shows real section-by-section sync progress and closes the loading screen on completion, with local request timeouts and finished-process recovery.",
+    "Improves Arabic and mixed-language message readability, preserves paragraphs, adds full-message expansion and keeps collapsed cards compact.",
+    "The next school update refreshes older cached message details once to recover paragraph formatting."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.13/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "d1078880543d16392d25e00b469dc735b83fe2a6f88e5d4d38a3deda60f831ae",
-      "size": 14110932
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.14/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "ba8420fb2d8b3f67f1d5bc2e98167da94be5113315a857159890572360b3dbc2",
+      "size": 14126367
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.13/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "167c29fb44a0120c35c40f3be42673ab4be1f03385611916d0039a79be82f05f",
-      "size": 11824458
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.14/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "d9e8b2f2e13e48e0b107c912feac9d55894d2bbf9c5d7b6ceb337a0b019a9647",
+      "size": 11832461
     }
   }
 }

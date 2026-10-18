@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.14** adds **Student** login (automatically using `tae`), while Parent login continues to use `pae`. The sync screen now shows real completed/current/waiting sections for each student and closes when collection finishes, without waiting for the dashboard reload. Local request timeouts and finished-process recovery help prevent a stuck loading screen. Messages preserve paragraph breaks and Arabic direction, long overview messages can be expanded, and collapsed cards stay compact. The next school update refreshes older cached message details once to recover formatting. Student authentication mapping and sync completion were tested with simulated accounts; a real student account must still complete its first login validation. School collection remains read-only.
+
 Version **1.2.13** adds optional live school refresh on dashboard load with a five-minute cooldown across reloads and browser tabs. Enable **Refresh automatically when opening the dashboard** in Settings → Schedule and select **Save live refresh**. Missed scheduled updates are caught up automatically, even with live refresh off. A fetching screen lets you select **View saved data** while the update continues; **Update now** remains available manually. The cooldown starts again when a collection finishes, including a failed attempt. Existing weekly reconciliation and marks-refresh rules are unchanged.
 
 Version **1.2.12** highlights the ongoing lesson when you open the weekly timetable, using the school's Cairo timezone. It adds no background timer or extra LMS requests.
