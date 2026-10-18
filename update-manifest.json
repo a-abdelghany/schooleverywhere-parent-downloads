@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.14",
-  "publishedAt": "2026-10-18T14:26:15+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.14",
+  "latestVersion": "1.2.15",
+  "publishedAt": "2026-10-18T15:55:19+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.15",
   "releaseNotes": [
-    "Adds Student login with the tae identifier; Parent login continues to use pae.",
-    "Shows real section-by-section sync progress and closes the loading screen on completion, with local request timeouts and finished-process recovery.",
-    "Improves Arabic and mixed-language message readability, preserves paragraphs, adds full-message expansion and keeps collapsed cards compact.",
-    "The next school update refreshes older cached message details once to recover paragraph formatting."
+    "Equal-height, collapsed-by-default cards across Assignments, Teacher updates, Mail box and Overview; expand a card for full content and actions.",
+    "Automatic refresh cooldown now defaults to 30 minutes and is configurable in Settings. Manual updates and normal schedules still bypass it.",
+    "Daily shared Drive folder checks, smarter attendance caching, weekly healthy-link checks and daily failure retries reduce repeated work.",
+    "New posts and resources are still checked immediately on each sync; reused attendance keeps its original collection timestamp."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.14/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "ba8420fb2d8b3f67f1d5bc2e98167da94be5113315a857159890572360b3dbc2",
-      "size": 14126367
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.15/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "1bb49cd7e0909689b8f71a6825f702410af0f989ed26b1fb59889011727d98ad",
+      "size": 14162631
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.14/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "d9e8b2f2e13e48e0b107c912feac9d55894d2bbf9c5d7b6ceb337a0b019a9647",
-      "size": 11832461
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.15/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "f9dfbaa053cefe3e35742aee67ebf6ed4db2b1ff5e6b87497bd1bd3e629fdcad",
+      "size": 11840094
     }
   }
 }

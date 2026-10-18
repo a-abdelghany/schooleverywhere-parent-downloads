@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.14/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.15/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.14/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.15/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.14/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.15/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.14/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.15/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.14/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.15/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -228,13 +228,15 @@ Opening SchoolEverywhere Parent...
 
 من `Settings` ثم `Schedule`، يمكنك تفعيل `Refresh automatically when opening the dashboard` ثم الضغط على `Save live refresh`. هذا الخيار مغلق افتراضياً. عند تفعيله، فتح صفحة الـ `Dashboard` أو إعادة تحميلها يبدأ فحصاً للبيانات الجديدة باستخدام التحديث المعتاد، دون إعادة تنزيل الملفات غير المتغيرة. تظل قواعد المراجعة الأسبوعية و`Student Marks` كما هي.
 
-توجد فترة انتظار `Cooldown` مدتها خمس دقائق بعد انتهاء آخر تحديث، سواء نجح أو فشل، لمنع تكرار الطلبات عند إعادة تحميل الصفحة أو فتح أكثر من `Tab`. إذا كان هناك تحديث يعمل بالفعل، ينتظر البرنامج نفس التحديث ولا يبدأ نسخة ثانية. التنقل بين أقسام الـ `Dashboard` لا يبدأ تحديثاً جديداً. يمكنك استخدام `Update now` يدوياً دون انتظار الـ `Cooldown`.
+توجد فترة انتظار `Cooldown` مدتها **30 دقيقة افتراضياً** بعد انتهاء آخر تحديث، سواء نجح أو فشل، لمنع تكرار الطلبات عند إعادة تحميل الصفحة أو فتح أكثر من `Tab`. لتغييرها، افتح `Settings` ثم `Schedule`، وأدخل عدد الدقائق في `Automatic refresh cooldown (minutes)`، ثم اضغط `Save live refresh`. التغيير متاح من دقيقة واحدة إلى 1440 دقيقة، ويُحفظ محلياً. الإعدادات القديمة التي لا تحتوي على قيمة مخصصة تستخدم 30 دقيقة بعد الترقية.
+
+إذا كان هناك تحديث يعمل بالفعل، ينتظر البرنامج نفس التحديث ولا يبدأ نسخة ثانية. التنقل بين أقسام الـ `Dashboard` لا يبدأ تحديثاً جديداً. هذه فترة انتظار وليست مؤقتاً يُحدّث البيانات تلقائياً كل 30 دقيقة. يمكنك استخدام `Update now` يدوياً دون انتظار الـ `Cooldown`، وتعمل المواعيد المجدولة في أوقاتها المعتادة دون أن يمنعها هذا الإعداد.
 
 أثناء الجلب ستظهر رسالة `Please wait while we fetch the latest updates for you…`، وأسفلها مراحل مثل `Attendance` و`Assignments` و`Teacher updates` و`Mail box` و`Student marks` و`Resources` و`Finishing`. ستوضح كل مرحلة هل اكتملت أو يجري تحديثها أو لم تبدأ بعد، مع اسم الطالب الجاري تحديثه عند وجود أكثر من طالب. النسبة تمثل المراحل المنتهية وليست وقتاً متوقعاً؛ تنزيل الملفات أو جمع الحضور السابق قد يستغرق وقتاً أطول.
 
 يمكنك الضغط على `View saved data` لعرض البيانات المحفوظة مع استمرار التحديث في الخلفية. تُغلق شاشة الانتظار عند انتهاء المزامنة، ثم تتحدث الصفحة تلقائياً. إذا فشل التحديث أو لم يستجب البرنامج المحلي في الوقت المحدد، تظل البيانات المحفوظة متاحة ويظهر تنبيه بدلاً من الانتظار بلا نهاية. تعويض المواعيد المجدولة الفائتة يعمل عند فتح الصفحة حتى لو كان خيار التحديث عند الفتح مغلقاً، مع الالتزام بنفس الـ `Cooldown`.
 
-تحافظ الرسائل الآن على الفقرات واتجاه العربية، ويمكن استخدام `Read full message` لقراءة الرسائل الطويلة بالكامل في الـ `Overview`. تظل البطاقة المغلقة بحجم محتواها دون التمدد بحجم البطاقة المجاورة. بعد الترقية، يعيد أول تحديث جلب تفاصيل الرسائل القديمة مرة واحدة لاستعادة تنسيق الفقرات.
+تحافظ الرسائل على الفقرات واتجاه العربية. بطاقات `Assignments` و`Teacher updates` و`Mail box` و`Overview` كلها **بنفس الحجم ومغلقة افتراضياً**. اضغط `View details` لعرض النص كاملاً والملفات والروابط. ستجد `Mark as done` و`Undo done` داخل بطاقة الواجب بعد فتحها. فتح بطاقة لا يمدد البطاقات المجاورة. يظل اسم المادة والحالة واسم المدرس أو التاريخ وعدد الملفات والروابط ظاهراً في الملخص. عند الترقية من نسخة قديمة، يعيد أول تحديث جلب تفاصيل الرسائل المخزنة بالتنسيق القديم مرة واحدة لاستعادة الفقرات.
 
 هذا الخيار يحدّث بيانات المدرسة فقط، وليس إصدار التطبيق.
 
@@ -250,7 +252,22 @@ Opening SchoolEverywhere Parent...
 
 ## تحديث التطبيق مستقبلاً
 
-إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.14`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
+### متى تُفحص بيانات المدرسة؟
+
+لجعل التحديثات أسرع دون إهمال المحتوى الجديد:
+
+- `Assignments` و`Teacher updates` و`Mail box`: تُفحص القوائم في كل `Sync`، ويُقرأ المحتوى الجديد أو المتغير مباشرة.
+- `Attendance`: يُجمع التاريخ الناقص، وتُراجع بيانات اليوم بعد نهاية آخر حصة بعشر دقائق. إذا بقيت فترات `Pending`، يمكن إعادة فحصها مرة واحدة مساءً ابتداءً من الساعة 20:00 بتوقيت القاهرة. ويُراجع آخر يوم دراسي سابق مرة يومياً لاكتشاف التصحيحات. بقية التحديثات تستخدم النسخة المحفوظة مع وقت فحصها الأصلي.
+- مجلدات `Google Drive` المشتركة الموجودة: يُعاد فحصها عند أول `Sync` من كل يوم بتوقيت القاهرة لاكتشاف الملفات المضافة، دون إعادة تنزيل الملفات الموجودة. التسجيلات تظل روابط، وليست ملفات فيديو.
+- الموارد الجديدة: تُفحص وتُحمّل عند اكتشافها خلال الـ `Sync`. إذا فشل تنزيل مورد، تُعاد المحاولة في اليوم التالي، ويظل تنبيه الفشل ظاهراً بين المحاولات.
+- صلاحية الروابط: الروابط التي تعمل تُفحص أسبوعياً، والروابط المتعطلة تُعاد محاولة فحصها يومياً. الروابط الجديدة تُفحص مباشرة عند اكتشافها.
+- `Student marks`: أسبوعياً. `Time table`: عند عدم وجود نسخة محفوظة، أو باستخدام `Refresh from LMS` عند الطلب.
+
+قواعد الأيام السابقة تستخدم `Africa/Cairo`، بينما تظل الأوقات المعروضة في الواجهة بتوقيت ولي الأمر. يمكن استخدام `Run full refresh` لتجاوز التخزين المؤقت وإجراء المراجعة الكاملة عند الحاجة.
+
+### خطوات تحديث التطبيق
+
+إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.15`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
 
 بدءاً من الإصدار `1.2.6`:
 
