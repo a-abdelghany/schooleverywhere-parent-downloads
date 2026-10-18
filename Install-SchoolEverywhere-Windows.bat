@@ -1,10 +1,10 @@
 @echo off
 setlocal EnableExtensions
 
-set "VERSION=v1.2.16"
+set "VERSION=v1.2.17"
 set "REPOSITORY=a-abdelghany/schooleverywhere-parent-downloads"
 set "FILE_NAME=SchoolEverywhere-Parent-Windows-Setup.exe"
-set "EXPECTED_SHA256=7465538C12D8BADEA243CED959A79D8575990385EE144D78CB473660D0C213F3"
+set "EXPECTED_SHA256=FCAEEACE7AECFB1B5F7B5ABAB9D1C4DC791B1D4684547F99C37E79B76126FA7C"
 set "DOWNLOAD_URL=https://github.com/%REPOSITORY%/releases/download/%VERSION%/%FILE_NAME%"
 set "DOWNLOAD_DIR=%TEMP%\SchoolEverywhereParent-%VERSION%"
 set "DOWNLOAD_PATH=%DOWNLOAD_DIR%\%FILE_NAME%"

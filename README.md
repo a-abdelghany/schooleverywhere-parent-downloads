@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.17** adds **Student marks → Update now** beside the quarter selector. It refreshes only the selected student’s marks for all available quarters, bypassing the weekly wait. Results and the last-checked time update immediately; failed or incomplete reads keep saved marks. The fresh snapshot is reused by normal weekly checks, without fetching other children or sections.
+
 Version **1.2.16** refreshes open dashboards immediately when scheduled updates or updates started in another tab finish. No manual page refresh or extra LMS sync is needed. Local notifications reconnect automatically after interruptions, with saved-data recovery on returning to the tab and a local fallback check. Failed syncs retain saved information and show a warning.
 
 Version **1.2.15** uses equal-height, collapsed-by-default cards across **Assignments**, **Teacher updates**, **Mail box**, and **Overview**. Choose **View details** for full text, attachments, links, and assignment completion/undo controls. Automatic refresh now has a configurable **30-minute default cooldown** under Settings → Schedule; manual updates and normal schedules bypass it. Incremental sync still checks new posts every run, but reuses attendance between due checks, rescans existing shared Drive folders daily, checks healthy links weekly, and retries failed links/downloads daily. Daily boundaries use Cairo time; marks remain weekly and timetable refresh remains on demand. Saved data and settings are preserved.
