@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.19** adds mini weekly marks charts for the selected quarter and each subject. They compare cumulative published percentages using the latest saved observation per Sunday-start Cairo school week, with percentage-point changes and a readable weekly score table. Missing weeks remain gaps; one saved week shows a dot until another is available. Existing report history is used, and future manual/scheduled marks checks preserve weekly snapshots locally. Charts make no extra LMS requests and do not invent historical grades. New assessments and corrections may change the cumulative percentage.
+
 Version **1.2.18** keeps material links, resource links, saved-file actions and **Mark as done / Undo done** visible even while cards are collapsed. This applies across Overview, Assignments, Teacher updates and Mail box. Full descriptions stay collapsed by default; cards remain equal-sized, with longer attachment lists scrolling inside their action area. Existing data and settings are preserved.
 
 Version **1.2.17** adds **Student marks → Update now** beside the quarter selector. It refreshes only the selected student’s marks for all available quarters, bypassing the weekly wait. Results and the last-checked time update immediately; failed or incomplete reads keep saved marks. The fresh snapshot is reused by normal weekly checks, without fetching other children or sections.

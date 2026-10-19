@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -266,9 +266,15 @@ Opening SchoolEverywhere Parent...
 
 قواعد الأيام السابقة تستخدم `Africa/Cairo`، بينما تظل الأوقات المعروضة في الواجهة بتوقيت ولي الأمر. يمكن استخدام `Run full refresh` لتجاوز التخزين المؤقت وإجراء المراجعة الكاملة عند الحاجة.
 
+### متابعة الدرجات أسبوعياً
+
+داخل `Student marks` يظهر رسم خطي صغير للـ `Quarter` المختار، ورسم لكل مادة عند فتح تفاصيلها. يعتمد على آخر نسبة تراكمية منشورة ومحفوظة في كل أسبوع دراسي يبدأ يوم الأحد بتوقيت القاهرة، وليس على درجات أعمال هذا الأسبوع وحدها. إضافة اختبارات أو تصحيح درجات قد يغيّر النسبة.
+
+الأسابيع التي لا توجد لها بيانات تظل فجوات، وإذا توفّر أسبوع واحد فقط تظهر نقطة حتى تتوافر بيانات أسبوع آخر. لا ينشئ البرنامج درجات تاريخية غير موجودة. استخدم `View weekly scores` لعرض جدول النسب وأوقات الفحص بتوقيتك. يحتفظ البرنامج بلقطات أسبوعية من تحديثات الدرجات القادمة محلياً دون طلبات إضافية للـ `LMS` من أجل الرسم.
+
 ### خطوات تحديث التطبيق
 
-إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.18`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
+إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.19`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
 
 بدءاً من الإصدار `1.2.6`:
 
