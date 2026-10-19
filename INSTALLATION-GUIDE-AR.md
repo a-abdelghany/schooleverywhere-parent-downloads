@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.20/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.20/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.20/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.20/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.20/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -232,7 +232,7 @@ Opening SchoolEverywhere Parent...
 
 إذا كان هناك تحديث يعمل بالفعل، ينتظر البرنامج نفس التحديث ولا يبدأ نسخة ثانية. التنقل بين أقسام الـ `Dashboard` لا يبدأ تحديثاً جديداً. هذه فترة انتظار وليست مؤقتاً يُحدّث البيانات تلقائياً كل 30 دقيقة. يمكنك استخدام `Update now` يدوياً دون انتظار الـ `Cooldown`، وتعمل المواعيد المجدولة في أوقاتها المعتادة دون أن يمنعها هذا الإعداد.
 
-أثناء الجلب ستظهر رسالة `Please wait while we fetch the latest updates for you…`، وأسفلها مراحل مثل `Attendance` و`Assignments` و`Teacher updates` و`Mail box` و`Student marks` و`Resources` و`Finishing`. ستوضح كل مرحلة هل اكتملت أو يجري تحديثها أو لم تبدأ بعد، مع اسم الطالب الجاري تحديثه عند وجود أكثر من طالب. النسبة تمثل المراحل المنتهية وليست وقتاً متوقعاً؛ تنزيل الملفات أو جمع الحضور السابق قد يستغرق وقتاً أطول.
+أثناء الجلب ستظهر رسالة `Please wait while we fetch the latest updates for you…`، وأسفلها مراحل مثل `Attendance` و`Assignments` و`Teacher updates` و`Mail box` و`Student marks` و`Topics covered` و`Resources` و`Finishing`. ستوضح كل مرحلة هل اكتملت أو يجري تحديثها أو لم تبدأ بعد، مع اسم الطالب الجاري تحديثه عند وجود أكثر من طالب. النسبة تمثل المراحل المنتهية وليست وقتاً متوقعاً؛ تنزيل الملفات أو جمع الحضور السابق قد يستغرق وقتاً أطول.
 
 يمكنك الضغط على `View saved data` لعرض البيانات المحفوظة مع استمرار التحديث في الخلفية. تُغلق شاشة الانتظار عند انتهاء المزامنة، ثم تتحدث الصفحة تلقائياً. إذا فشل التحديث أو لم يستجب البرنامج المحلي في الوقت المحدد، تظل البيانات المحفوظة متاحة ويظهر تنبيه بدلاً من الانتظار بلا نهاية. تعويض المواعيد المجدولة الفائتة يعمل عند فتح الصفحة حتى لو كان خيار التحديث عند الفتح مغلقاً، مع الالتزام بنفس الـ `Cooldown`.
 
@@ -268,13 +268,21 @@ Opening SchoolEverywhere Parent...
 
 ### متابعة الدرجات أسبوعياً
 
-داخل `Student marks` يظهر رسم خطي صغير للـ `Quarter` المختار، ورسم لكل مادة عند فتح تفاصيلها. يعتمد على آخر نسبة تراكمية منشورة ومحفوظة في كل أسبوع دراسي يبدأ يوم الأحد بتوقيت القاهرة، وليس على درجات أعمال هذا الأسبوع وحدها. إضافة اختبارات أو تصحيح درجات قد يغيّر النسبة.
+داخل `Student marks` يظهر رسم خطي صغير للـ `Quarter` المختار، ورسم لكل مادة عند فتح تفاصيلها. يعتمد الرسم الآن على مجموعات التقييم الفعلية `Week 1` و`Week 2` و`Week 3` الموجودة داخل الـ `LMS`، وليس تاريخ أول جلب للدرجات على جهازك. في `Q1` لعام `2026/2027` يبدأ `Week 1` يوم 27 سبتمبر، و`Week 2` يوم 4 أكتوبر، و`Week 3` يوم 11 أكتوبر. كل نقطة تمثل نسبة الدرجات المنشورة لذلك الأسبوع، حسب أحدث نسخة محفوظة؛ وليست إعادة بناء للدرجات التي كانت معروفة في ذلك التاريخ.
 
-الأسابيع التي لا توجد لها بيانات تظل فجوات، وإذا توفّر أسبوع واحد فقط تظهر نقطة حتى تتوافر بيانات أسبوع آخر. لا ينشئ البرنامج درجات تاريخية غير موجودة. استخدم `View weekly scores` لعرض جدول النسب وأوقات الفحص بتوقيتك. يحتفظ البرنامج بلقطات أسبوعية من تحديثات الدرجات القادمة محلياً دون طلبات إضافية للـ `LMS` من أجل الرسم.
+الأسابيع التي لا توجد لها درجات منشورة تظل فجوات وليست صفراً. استخدم `View weekly scores` لعرض أرقام الأسابيع والتواريخ والنسب وأوقات الفحص بتوقيتك. إذا لم يتضمن الـ `LMS` مجموعات أسابيع مرقمة، يوضح البرنامج أن الرسم البديل يعرض لقطات تراكمية محفوظة حسب تاريخ الجلب. لا تُجرى طلبات إضافية للـ `LMS` من أجل الرسم.
+
+### Topics covered — متابعة Classwork وHomework
+
+افتح قسم `Topics covered` واختر الأسبوع من الـ `Drop-down`، ثم يمكنك تصفية المادة. يعرض الجدول كل مادة مع `Classwork` و`Homework` وروابط المواد. في أول جلب تُحفظ كل الأسابيع المتاحة، ويمكن الرجوع إليها دون اتصال. استخدم `Update now` لإعادة الفحص عند الطلب؛ يجري ذلك ضمن التحديث العائلي المعتاد، مع إعادة قراءة Topics covered للطالب المختار.
+
+من `Settings → Schedule → Topics covered — weekly checks` يمكنك تغيير يوم ووقت الفحص الأساسي، ويوم ووقت إعادة المحاولة، أو إيقاف هذه الفحوص. الافتراضي هو الخميس الساعة 10 مساءً، وإعادة المحاولة الجمعة الساعة 9 صباحاً **بتوقيتك المختار** إذا كان الأسبوع فارغاً أو غير منشور أو تعذّرت قراءته. اضغط `Save topics schedule`، وتأكد أيضاً من تشغيل `Enable scheduled updates` وحفظ الجدول العام.
+
+إذا كان الجهاز مغلقاً أو في وضع `Sleep`، يُستدرك الفحص عند تشغيل الـ `Helper` لاحقاً. أخطاء الاتصال لا تمسح المحتوى المحفوظ، وتظهر كتنبيه بدلاً من اعتبار الأسبوع فارغاً. الفيديوهات تُحفظ كملفات روابط وليست ملفات فيديو.
 
 ### خطوات تحديث التطبيق
 
-إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.19`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
+إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.20`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
 
 بدءاً من الإصدار `1.2.6`:
 

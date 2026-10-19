@@ -1,25 +1,26 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.19",
-  "publishedAt": "2026-10-19T07:33:27+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.19",
+  "latestVersion": "1.2.20",
+  "publishedAt": "2026-10-19T08:15:44+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.20",
   "releaseNotes": [
-    "Student marks now includes mini weekly progress charts for the selected quarter and each subject, plus a readable weekly score table.",
-    "Charts compare cumulative published percentages from the latest saved observation per Cairo school week. Missing weeks remain gaps; one saved week shows a point until more history is available.",
-    "Manual and scheduled marks checks preserve weekly snapshots locally. Charts make no extra LMS requests and preserve existing settings, school history and resources."
+    "New Topics covered section collects weekly classwork and homework, with week/subject filters, resource links, offline saved data and Update now.",
+    "Topics checks default to Thursday 22:00 with a Friday 09:00 retry for an empty, unpublished or failed week. Days/times are configurable in Settings and use the parent's timezone.",
+    "Marks charts now use actual LMS Week 1/2/3 assessment groups rather than collection dates. Q1 Week 1 begins September 27, Week 2 October 4 and Week 3 October 11.",
+    "Missing scores remain gaps, saved content survives failed reads, and local settings, credentials, student history and resources are preserved."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "1ff2eaa614b58e0e6b8ae63058484d27dcc3eba8a8fa3e35e5a856a2202c05d9",
-      "size": 14136893
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.20/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "7997b2a6ba45f66ed7bfd7ecea001a6b894de218e850c23197d06d5407b52184",
+      "size": 14150212
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.19/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "98691e88a70bc1d019bfba6ec28c72dafc08f8973449518e976569c6e54866e4",
-      "size": 11844673
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.20/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "cffd96aaee72367219573ac835b657b4531dfe58c0a40f07ee1c8d84ece13f7b",
+      "size": 11861825
     }
   }
 }
