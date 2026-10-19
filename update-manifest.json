@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.20",
-  "publishedAt": "2026-10-19T08:15:44+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.20",
+  "latestVersion": "1.2.21",
+  "publishedAt": "2026-10-19T08:46:06+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.21",
   "releaseNotes": [
-    "New Topics covered section collects weekly classwork and homework, with week/subject filters, resource links, offline saved data and Update now.",
-    "Topics checks default to Thursday 22:00 with a Friday 09:00 retry for an empty, unpublished or failed week. Days/times are configurable in Settings and use the parent's timezone.",
-    "Marks charts now use actual LMS Week 1/2/3 assessment groups rather than collection dates. Q1 Week 1 begins September 27, Week 2 October 4 and Week 3 October 11.",
-    "Missing scores remain gaps, saved content survives failed reads, and local settings, credentials, student history and resources are preserved."
+    "Activity cards now expand and collapse smoothly on click, with a subtle hover highlight. Hover never opens or closes cards.",
+    "Materials, resource links and assignment completion controls remain available while cards are collapsed or animating.",
+    "Reduced-motion preferences and native keyboard/touch behavior are respected. Rapid clicks safely reverse the animation, with no added LMS requests or background timers.",
+    "Existing credentials, settings, student history, private assignment completion and saved resources are preserved."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.20/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "7997b2a6ba45f66ed7bfd7ecea001a6b894de218e850c23197d06d5407b52184",
-      "size": 14150212
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.21/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "c1b52fb8cef21c13751ecc23f505bab2a597a109f2f0bc1579bb13dfbd100be1",
+      "size": 14183354
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.20/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "cffd96aaee72367219573ac835b657b4531dfe58c0a40f07ee1c8d84ece13f7b",
-      "size": 11861825
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.21/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "6ff5a4278813a811985b1a965208ce97a8ba96bbd30d854a69560b27356b8035",
+      "size": 11862376
     }
   }
 }
