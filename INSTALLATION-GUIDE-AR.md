@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.21/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.22/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.21/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.22/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.21/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.22/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.21/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.22/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.21/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.22/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -266,11 +266,17 @@ Opening SchoolEverywhere Parent...
 
 قواعد الأيام السابقة تستخدم `Africa/Cairo`، بينما تظل الأوقات المعروضة في الواجهة بتوقيت ولي الأمر. يمكن استخدام `Run full refresh` لتجاوز التخزين المؤقت وإجراء المراجعة الكاملة عند الحاجة.
 
+### تصفية Resources بأزرار مباشرة
+
+داخل `Resources` توجد لوحتان أفقيتان من الأزرار بدلاً من الـ `Drop-down`: لوحة `Resource type` لاختيار `Recordings` أو `Material` أو `H.W.` أو `Other`، ولوحة `Subject` لاختيار المادة. اضغط الخيار المطلوب مباشرة؛ سيظهر الخيار المحدد بلون مختلف، ومع كل خيار عدد النتائج. يمكنك الجمع بين النوع والمادة والبحث، والعودة إلى `All resources` أو `All subjects` لإلغاء كل تصفية. إذا كانت الخيارات كثيرة، مرّر اللوحة أفقياً، خصوصاً على الشاشات الصغيرة.
+
 ### متابعة الدرجات أسبوعياً
 
 داخل `Student marks` يظهر رسم خطي صغير للـ `Quarter` المختار، ورسم لكل مادة عند فتح تفاصيلها. يعتمد الرسم الآن على مجموعات التقييم الفعلية `Week 1` و`Week 2` و`Week 3` الموجودة داخل الـ `LMS`، وليس تاريخ أول جلب للدرجات على جهازك. في `Q1` لعام `2026/2027` يبدأ `Week 1` يوم 27 سبتمبر، و`Week 2` يوم 4 أكتوبر، و`Week 3` يوم 11 أكتوبر. كل نقطة تمثل نسبة الدرجات المنشورة لذلك الأسبوع، حسب أحدث نسخة محفوظة؛ وليست إعادة بناء للدرجات التي كانت معروفة في ذلك التاريخ.
 
 الأسابيع التي لا توجد لها درجات منشورة تظل فجوات وليست صفراً. استخدم `View weekly scores` لعرض أرقام الأسابيع والتواريخ والنسب وأوقات الفحص بتوقيتك. إذا لم يتضمن الـ `LMS` مجموعات أسابيع مرقمة، يوضح البرنامج أن الرسم البديل يعرض لقطات تراكمية محفوظة حسب تاريخ الجلب. لا تُجرى طلبات إضافية للـ `LMS` من أجل الرسم.
+
+المحور `Y-axis` يتكيّف مع أقل نسبة مرسومة: إذا كانت أقل نسبة `73%` يبدأ من `70%`، وإذا كانت `94%` يبدأ من `90%`. تُتجاهل الأسابيع غير المنشورة عند حساب المقياس. إذا كانت كل الدرجات `100%` يظل المقياس صالحاً، ويمكن أن يرتفع الحد الأعلى عند وجود `Extra credit` أكثر من `100%`.
 
 ### Topics covered — متابعة Classwork وHomework
 
@@ -282,7 +288,7 @@ Opening SchoolEverywhere Parent...
 
 ### خطوات تحديث التطبيق
 
-إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.21`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
+إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.22`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
 
 بدءاً من الإصدار `1.2.6`:
 
