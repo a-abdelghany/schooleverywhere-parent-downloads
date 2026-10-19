@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.17/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.17/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.17/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.17/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.17/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -236,7 +236,7 @@ Opening SchoolEverywhere Parent...
 
 يمكنك الضغط على `View saved data` لعرض البيانات المحفوظة مع استمرار التحديث في الخلفية. تُغلق شاشة الانتظار عند انتهاء المزامنة، ثم تتحدث الصفحة تلقائياً. إذا فشل التحديث أو لم يستجب البرنامج المحلي في الوقت المحدد، تظل البيانات المحفوظة متاحة ويظهر تنبيه بدلاً من الانتظار بلا نهاية. تعويض المواعيد المجدولة الفائتة يعمل عند فتح الصفحة حتى لو كان خيار التحديث عند الفتح مغلقاً، مع الالتزام بنفس الـ `Cooldown`.
 
-تحافظ الرسائل على الفقرات واتجاه العربية. بطاقات `Assignments` و`Teacher updates` و`Mail box` و`Overview` كلها **بنفس الحجم ومغلقة افتراضياً**. اضغط `View details` لعرض النص كاملاً والملفات والروابط. ستجد `Mark as done` و`Undo done` داخل بطاقة الواجب بعد فتحها. فتح بطاقة لا يمدد البطاقات المجاورة. يظل اسم المادة والحالة واسم المدرس أو التاريخ وعدد الملفات والروابط ظاهراً في الملخص. عند الترقية من نسخة قديمة، يعيد أول تحديث جلب تفاصيل الرسائل المخزنة بالتنسيق القديم مرة واحدة لاستعادة الفقرات.
+تحافظ الرسائل على الفقرات واتجاه العربية. بطاقات `Assignments` و`Teacher updates` و`Mail box` و`Overview` كلها **بنفس الحجم ومغلقة افتراضياً**. اضغط `View details` لعرض النص كاملاً. أزرار فتح الملفات والروابط و`Mark as done` و`Undo done` تظل ظاهرة ويمكن استخدامها حتى والبطاقة مغلقة. إذا كانت المرفقات كثيرة، يمكنك التمرير داخل منطقة الإجراءات دون تغيير حجم البطاقة. فتح بطاقة لا يمدد البطاقات المجاورة. يظل اسم المادة والحالة واسم المدرس أو التاريخ وعدد الملفات والروابط ظاهراً في الملخص. عند الترقية من نسخة قديمة، يعيد أول تحديث جلب تفاصيل الرسائل المخزنة بالتنسيق القديم مرة واحدة لاستعادة الفقرات.
 
 هذا الخيار يحدّث بيانات المدرسة فقط، وليس إصدار التطبيق.
 
@@ -268,7 +268,7 @@ Opening SchoolEverywhere Parent...
 
 ### خطوات تحديث التطبيق
 
-إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.17`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
+إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.18`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
 
 بدءاً من الإصدار `1.2.6`:
 

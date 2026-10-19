@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.17",
-  "publishedAt": "2026-10-18T17:22:04+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.17",
+  "latestVersion": "1.2.18",
+  "publishedAt": "2026-10-19T06:02:40+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.18",
   "releaseNotes": [
-    "Student marks now has an Update now button beside the quarter selector, refreshing only the selected student's marks without waiting for the weekly check.",
-    "Updated marks appear immediately with their last-checked time. The fresh snapshot is reused by subsequent weekly checks; other children and sections are not fetched.",
-    "Failed or incomplete marks reads keep saved results available. Existing settings, credentials, school history and local assignment status are preserved."
+    "Open material, resource links, saved-file actions and Mark as done / Undo done remain available while activity cards are collapsed.",
+    "Applied consistently to Overview, Assignments, Teacher updates and Mail box. Full text stays collapsed by default; equal-sized action areas scroll for longer attachment lists.",
+    "Completion controls remain private to this computer. Existing settings, credentials, school history and downloaded resources are preserved."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.17/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "b74e887f542ea423781d0670bc28c4f7e0e60ee664c9bea2c8c68d8f7806243b",
-      "size": 14161054
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "7f31299dd217be15eccc77d280b62860a95129303849c28c82113ac6a14fb859",
+      "size": 14163563
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.17/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "fcaeeace7aecfb1b5f7b5abab9d1c4dc791b1d4684547f99c37e79b76126fa7c",
-      "size": 11837604
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.18/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "19d04211aebf7abf40cc207918b5e70480b619df82e1fad9cc2ed024a4b83528",
+      "size": 11842313
     }
   }
 }
