@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.22",
-  "publishedAt": "2026-10-19T12:35:27+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.22",
+  "latestVersion": "1.2.23",
+  "publishedAt": "2026-11-01T12:45:36+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.23",
   "releaseNotes": [
-    "Marks charts now dynamically round the Y-axis floor down to the nearest ten below the lowest score: 73% gives 70\u2013100%, and 94% gives 90\u2013100%.",
-    "Resources replaces category and subject dropdowns with separate horizontal button panels, including counts, selected-state highlighting and combined filtering/search.",
-    "Long filter rows scroll on narrow screens and preserve keyboard focus. Full-mark charts retain a valid scale, and extra credit can extend the upper bound.",
+    "Mark as done and Undo now preserve open weeks, expanded cards, keyboard focus and page position in Assignments and Overview.",
+    "Attendance adds a collapsed-by-default subject summary with Present, Pending, Late and Absent counts across all saved attendance.",
+    "Subject totals use the saved timetable mapping, keep unassigned periods visible, and treat blank statuses as pending rather than absent.",
     "No extra LMS requests. Existing credentials, settings, student history, private completion status and saved resources are preserved."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.22/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "146d2ba357545c87e6f90c0d7e6a8281532b90390dd679077bb4acc56f327f58",
-      "size": 14184901
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.23/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "b96eccacc94aa7532e394cd266024f505418f9ed8da7b0273b9765aa333d505d",
+      "size": 14163333
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.22/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "8d1e52cc95e498762f3ac1395b38dccf8c3be4e11cd75ff885f26339576ac98f",
-      "size": 11863690
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.23/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "c2a687de821abce319e18c21b25fe5a3ff53045527c73026d112379d164e6ed0",
+      "size": 11942807
     }
   }
 }
