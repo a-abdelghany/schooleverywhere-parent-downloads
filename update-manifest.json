@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.23",
-  "publishedAt": "2026-11-01T12:45:36+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.23",
+  "latestVersion": "1.2.24",
+  "publishedAt": "2026-11-02T07:59:13+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.24",
   "releaseNotes": [
-    "Mark as done and Undo now preserve open weeks, expanded cards, keyboard focus and page position in Assignments and Overview.",
-    "Attendance adds a collapsed-by-default subject summary with Present, Pending, Late and Absent counts across all saved attendance.",
-    "Subject totals use the saved timetable mapping, keep unassigned periods visible, and treat blank statuses as pending rather than absent.",
-    "No extra LMS requests. Existing credentials, settings, student history, private completion status and saved resources are preserved."
+    "Fixes malformed LMS links with repeated http:// or https:// prefixes across Assignments, Teacher updates, Mail box, Topics covered and Resources.",
+    "Hyperlinks use their actual destinations, not visible captions. Corrected links are deduplicated and invalid addresses are rejected.",
+    "The first school update refreshes cached detail pages and enabled Topics covered weeks once to recover original hyperlink targets, then resumes normal incremental checks.",
+    "Old failures for malformed addresses await a real recheck instead of falsely reporting the corrected link as inaccessible. Existing local data and settings are preserved."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.23/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "b96eccacc94aa7532e394cd266024f505418f9ed8da7b0273b9765aa333d505d",
-      "size": 14163333
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.24/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "3070d919a063e31e3bb2d72629ae2eb68f39b997b8f833d26fd48d0c1de5fa12",
+      "size": 14165959
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.23/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "c2a687de821abce319e18c21b25fe5a3ff53045527c73026d112379d164e6ed0",
-      "size": 11942807
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.24/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "00cfb4daf8d717ddc264e8d4e1e72e0f7f3adf87758e23604bf4a41f1629560e",
+      "size": 11949037
     }
   }
 }
