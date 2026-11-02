@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.24** repairs repeated `http://` / `https://` prefixes across school resources, reads the actual destination of hyperlinks instead of turning their labels into addresses, deduplicates corrected links and rejects invalid URLs. The first school update refreshes old detail pages and enabled Topics covered weeks once to recover original targets, then returns to normal incremental checks. Corrected cached failures are marked as awaiting a real recheck. Existing data and settings are preserved.
+
 Version **1.2.23** keeps your open week, expanded cards and page position when using **Mark as done / Undo done** in Assignments or Overview. Attendance now includes a collapsed-by-default **Attendance by subject** panel with one row per subject and colored Present, Pending, Late and Absent totals across all saved dates. Missing statuses remain pending, not absent. Existing local data and settings are preserved; no extra LMS requests are added.
 
 Version **1.2.22** adds dynamic marks-chart Y-axis floors (73% → 70–100%, 94% → 90–100%) and replaces Resources category/subject dropdowns with separate horizontal button panels. Panels include contextual counts, selected states, All options and combined filtering/search. Long rows scroll on smaller screens while retaining focus and scroll position. Full-mark charts keep a valid range, and extra-credit scores can extend the upper bound. No additional LMS requests; saved data and settings are preserved.
