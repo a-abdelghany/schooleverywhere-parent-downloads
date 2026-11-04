@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.24/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.24/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.24/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.24/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.24/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -232,15 +232,25 @@ Opening SchoolEverywhere Parent...
 
 إذا كان هناك تحديث يعمل بالفعل، ينتظر البرنامج نفس التحديث ولا يبدأ نسخة ثانية. التنقل بين أقسام الـ `Dashboard` لا يبدأ تحديثاً جديداً. هذه فترة انتظار وليست مؤقتاً يُحدّث البيانات تلقائياً كل 30 دقيقة. يمكنك استخدام `Update now` يدوياً دون انتظار الـ `Cooldown`، وتعمل المواعيد المجدولة في أوقاتها المعتادة دون أن يمنعها هذا الإعداد.
 
-أثناء الجلب ستظهر رسالة `Please wait while we fetch the latest updates for you…`، وأسفلها مراحل مثل `Attendance` و`Assignments` و`Teacher updates` و`Mail box` و`Student marks` و`Topics covered` و`Resources` و`Finishing`. ستوضح كل مرحلة هل اكتملت أو يجري تحديثها أو لم تبدأ بعد، مع اسم الطالب الجاري تحديثه عند وجود أكثر من طالب. النسبة تمثل المراحل المنتهية وليست وقتاً متوقعاً؛ تنزيل الملفات أو جمع الحضور السابق قد يستغرق وقتاً أطول.
+أثناء الجلب يظهر شريط `Updating your school information` مع مراحل مثل `Attendance` و`Assignments` و`Teacher updates` و`Mail box` و`Student marks` و`Topics covered` و`Resources` و`Finishing`. يوضح الشريط المراحل المكتملة والجارية واسم الطالب الجاري تحديثه، دون منع قراءة البيانات المحفوظة أو التنقل بين الأقسام. النسبة تمثل المراحل المنتهية وليست وقتاً متوقعاً؛ تنزيل الملفات أو جمع الحضور السابق قد يستغرق وقتاً أطول.
 
-يمكنك الضغط على `View saved data` لعرض البيانات المحفوظة مع استمرار التحديث في الخلفية. تُغلق شاشة الانتظار عند انتهاء المزامنة، ثم تتحدث الصفحة تلقائياً. إذا فشل التحديث أو لم يستجب البرنامج المحلي في الوقت المحدد، تظل البيانات المحفوظة متاحة ويظهر تنبيه بدلاً من الانتظار بلا نهاية. تعويض المواعيد المجدولة الفائتة يعمل عند فتح الصفحة حتى لو كان خيار التحديث عند الفتح مغلقاً، مع الالتزام بنفس الـ `Cooldown`.
+يمكنك الضغط على `Hide progress` لإخفاء الشريط مع استمرار التحديث في الخلفية. يختفي الشريط عند انتهاء المزامنة، وتتحدث البيانات تلقائياً مع الحفاظ على مكان القراءة والبطاقات المفتوحة. إذا فشل التحديث أو لم يستجب البرنامج المحلي في الوقت المحدد، تظل البيانات المحفوظة متاحة ويظهر تنبيه بدلاً من الانتظار بلا نهاية. تعويض المواعيد المجدولة الفائتة يعمل عند فتح الصفحة حتى لو كان خيار التحديث عند الفتح مغلقاً، مع الالتزام بنفس الـ `Cooldown`.
 
 تحافظ الرسائل على الفقرات واتجاه العربية. بطاقات `Assignments` و`Teacher updates` و`Mail box` و`Overview` كلها **بنفس الحجم ومغلقة افتراضياً**. اضغط `View details` لعرض النص كاملاً. أزرار فتح الملفات والروابط و`Mark as done` و`Undo done` تظل ظاهرة ويمكن استخدامها حتى والبطاقة مغلقة. إذا كانت المرفقات كثيرة، يمكنك التمرير داخل منطقة الإجراءات دون تغيير حجم البطاقة. فتح بطاقة لا يمدد البطاقات المجاورة. الفتح والإغلاق بالضغط يتمان الآن بحركة سلسة، بينما تحريك المؤشر فوق البطاقة يضيف تمييزاً خفيفاً فقط ولا يفتحها أو يغلقها. أزرار الإجراءات تظل متاحة، ويُحترم إعداد `Reduce Motion` في الجهاز. يظل اسم المادة والحالة واسم المدرس أو التاريخ وعدد الملفات والروابط ظاهراً في الملخص. عند الترقية من نسخة قديمة، يعيد أول تحديث جلب تفاصيل الرسائل المخزنة بالتنسيق القديم مرة واحدة لاستعادة الفقرات.
 
 هذا الخيار يحدّث بيانات المدرسة فقط، وليس إصدار التطبيق.
 
 ### 4. أول تحديث
+
+في التصميم الجديد ستجد خمسة أقسام رئيسية:
+
+- `Today`: ملخص ما يحتاج انتباهك، والواجبات الحالية، والتواصل غير المراجع، والحضور، والحصة الحالية أو التالية.
+- `Assignments`: اختر `To do` أو `Completed` أو `All work`، مع التجميع حسب `Priority` أو `School week`. حالة `Done on this device` تأكيد خاص بك، وليست تسليماً في الـ LMS؛ وحالة `Submitted in LMS` تأتي من النظام الأصلي.
+- `School updates`: يجمع `Teacher updates` و`Mail box` مع تصفية حسب المادة أو المدرس أو المصدر. استخدم `Mark reviewed` و`Reviewed · Undo` للمراجعة الخاصة بك فقط. تُحفظ هذه العلامات داخل هذا الـ `Browser` لكل طالب، ولا تغيّر حالة الرسائل في الـ LMS، ويعود المنشور المعدّل إلى `Not reviewed`.
+- `Learning`: يضم `Resources` و`Time table` و`Topics covered`.
+- `Progress`: يضم `Attendance` و`Student marks`.
+
+اختر الطالب من القائمة أعلى الصفحة. يحفظ البرنامج تفضيلات العرض لكل طالب بشكل منفصل. على الشاشات الضيقة قد تظهر تسميتا `Work` و`Updates` بدلاً من الاسمين الطويلين. تجد فحوص التحديث والروابط في `Update details` أعلى الصفحة، وتظل الإعدادات في `Settings`.
 
 بعد فتح الـ `Dashboard`:
 
@@ -268,7 +278,7 @@ Opening SchoolEverywhere Parent...
 
 ### تصفية Resources بأزرار مباشرة
 
-داخل `Resources` توجد لوحتان أفقيتان من الأزرار بدلاً من الـ `Drop-down`: لوحة `Resource type` لاختيار `Recordings` أو `Material` أو `H.W.` أو `Other`، ولوحة `Subject` لاختيار المادة. اضغط الخيار المطلوب مباشرة؛ سيظهر الخيار المحدد بلون مختلف، ومع كل خيار عدد النتائج. يمكنك الجمع بين النوع والمادة والبحث، والعودة إلى `All resources` أو `All subjects` لإلغاء كل تصفية. إذا كانت الخيارات كثيرة، مرّر اللوحة أفقياً، خصوصاً على الشاشات الصغيرة.
+داخل `Learning → Resources` توجد لوحات أفقية من الأزرار: `Resource type` لاختيار `Recordings` أو `Material` أو `H.W.` أو `Other`، و`Subject` لاختيار المادة، و`School week` لاختيار الأسبوع. يظهر الخيار المحدد بلون مختلف، ومع كل خيار عدد النتائج. يمكنك الجمع بين النوع والمادة والأسبوع والبحث، والعودة إلى خيارات `All` لإلغاء التصفية. إذا كانت الخيارات كثيرة، مرّر اللوحة أفقياً، خصوصاً على الشاشات الصغيرة. يظل زر `Open` ظاهراً لفتح المورد.
 
 ### متابعة الدرجات أسبوعياً
 
@@ -288,7 +298,7 @@ Opening SchoolEverywhere Parent...
 
 ### خطوات تحديث التطبيق
 
-إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.24`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
+إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.25`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
 
 بدءاً من الإصدار `1.2.6`:
 
