@@ -24,7 +24,7 @@
 
 اضغط الرابط التالي:
 
-**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-Mac-Helper.zip)**
+**[Download Mac Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.26/SchoolEverywhere-Parent-Mac-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -112,7 +112,7 @@ Opening SchoolEverywhere Parent...
 
 استخدم هذه الطريقة فقط إذا لم تعمل طريقة الـ `Helper`:
 
-1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-macOS.dmg).
+1. حمّل الملف من [Download Mac DMG](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.26/SchoolEverywhere-Parent-macOS.dmg).
 2. افتح ملف `DMG`.
 3. اسحب `SchoolEverywhere Parent` إلى اختصار `Applications`.
 4. إذا ظهرت رسالة بأن التطبيق موجود بالفعل، اختر `Replace`.
@@ -128,7 +128,7 @@ Opening SchoolEverywhere Parent...
 
 اضغط الرابط التالي:
 
-**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-Windows-Helper.zip)**
+**[Download Windows Helper](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.26/SchoolEverywhere-Parent-Windows-Helper.zip)**
 
 سيتم تنزيل ملف باسم:
 
@@ -172,11 +172,11 @@ Opening SchoolEverywhere Parent...
 
 إذا لم يعمل الـ `Helper`، حمّل الملف مباشرة:
 
-**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-Windows-Setup.exe)**
+**[Download Windows Setup](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.26/SchoolEverywhere-Parent-Windows-Setup.exe)**
 
 يوجد أيضاً إصدار `Portable ZIP`، لكنه غير موصى به لمعظم أولياء الأمور لأن المجلد يجب أن يبقى كاملاً وفي مكان ثابت:
 
-**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.25/SchoolEverywhere-Parent-Windows.zip)**
+**[Download Windows Portable ZIP](https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.26/SchoolEverywhere-Parent-Windows.zip)**
 
 ---
 
@@ -242,15 +242,15 @@ Opening SchoolEverywhere Parent...
 
 ### 4. أول تحديث
 
-في التصميم الجديد ستجد خمسة أقسام رئيسية:
+تظهر أقسام الـ `Dashboard` مباشرة في القائمة الجانبية، دون الحاجة إلى فتح قسم آخر للوصول إليها:
 
 - `Today`: ملخص ما يحتاج انتباهك، والواجبات الحالية، والتواصل غير المراجع، والحضور، والحصة الحالية أو التالية.
 - `Assignments`: اختر `To do` أو `Completed` أو `All work`، مع التجميع حسب `Priority` أو `School week`. حالة `Done on this device` تأكيد خاص بك، وليست تسليماً في الـ LMS؛ وحالة `Submitted in LMS` تأتي من النظام الأصلي.
 - `School updates`: يجمع `Teacher updates` و`Mail box` مع تصفية حسب المادة أو المدرس أو المصدر. استخدم `Mark reviewed` و`Reviewed · Undo` للمراجعة الخاصة بك فقط. تُحفظ هذه العلامات داخل هذا الـ `Browser` لكل طالب، ولا تغيّر حالة الرسائل في الـ LMS، ويعود المنشور المعدّل إلى `Not reviewed`.
-- `Learning`: يضم `Resources` و`Time table` و`Topics covered`.
-- `Progress`: يضم `Attendance` و`Student marks`.
+- `Timetable`: الجدول الأسبوعي. `Resources`: المواد والتسجيلات والواجبات. `Topics covered`: ما تمت دراسته أسبوعياً.
+- `Attendance`: سجل الحضور. `Student marks`: الدرجات المنشورة.
 
-اختر الطالب من القائمة أعلى الصفحة. يحفظ البرنامج تفضيلات العرض لكل طالب بشكل منفصل. على الشاشات الضيقة قد تظهر تسميتا `Work` و`Updates` بدلاً من الاسمين الطويلين. تجد فحوص التحديث والروابط في `Update details` أعلى الصفحة، وتظل الإعدادات في `Settings`.
+اختر الطالب من القائمة أعلى الصفحة. يحتفظ كل قسم بتفضيلات العرض ومكان القراءة لكل طالب. على الشاشات الضيقة، افتح `Menu` للوصول إلى الأقسام نفسها بالترتيب نفسه. تجد `Settings` و`Update details` أسفل القائمة.
 
 بعد فتح الـ `Dashboard`:
 
@@ -278,7 +278,7 @@ Opening SchoolEverywhere Parent...
 
 ### تصفية Resources بأزرار مباشرة
 
-داخل `Learning → Resources` توجد لوحات أفقية من الأزرار: `Resource type` لاختيار `Recordings` أو `Material` أو `H.W.` أو `Other`، و`Subject` لاختيار المادة، و`School week` لاختيار الأسبوع. يظهر الخيار المحدد بلون مختلف، ومع كل خيار عدد النتائج. يمكنك الجمع بين النوع والمادة والأسبوع والبحث، والعودة إلى خيارات `All` لإلغاء التصفية. إذا كانت الخيارات كثيرة، مرّر اللوحة أفقياً، خصوصاً على الشاشات الصغيرة. يظل زر `Open` ظاهراً لفتح المورد.
+داخل `Resources` توجد لوحات أفقية من الأزرار: `Resource type` لاختيار `Recordings` أو `Material` أو `H.W.` أو `Other`، و`Subject` لاختيار المادة، و`School week` لاختيار الأسبوع. يظهر الخيار المحدد بلون مختلف، ومع كل خيار عدد النتائج. يمكنك الجمع بين النوع والمادة والأسبوع والبحث، والعودة إلى خيارات `All` لإلغاء التصفية. إذا كانت الخيارات كثيرة، مرّر اللوحة أفقياً، خصوصاً على الشاشات الصغيرة. يظل زر `Open` ظاهراً لفتح المورد.
 
 ### متابعة الدرجات أسبوعياً
 
@@ -298,7 +298,7 @@ Opening SchoolEverywhere Parent...
 
 ### خطوات تحديث التطبيق
 
-إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.25`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
+إذا كنت تستخدم الإصدار `1.2.8` أو `1.2.9`، استخدم زر `Review and update` في الـ `Dashboard` للترقية إلى `1.2.26`، أو استخدم الـ `Helper`. يوجد خطأ في زر التحديث داخل `Settings` في الإصدارات القديمة، والإصدار الجديد يتضمن إصلاحه.
 
 بدءاً من الإصدار `1.2.6`:
 

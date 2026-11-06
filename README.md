@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.26** adds a direct desktop sidebar and one narrow-screen menu. Attendance, Timetable, Resources and Student marks have fixed destinations; Today, the combined inbox and non-blocking refresh remain in place. Settings and Update details are at the bottom of navigation.
+
 Version **1.2.25** introduces a workflow-first dashboard with **Today**, **Assignments**, **School updates**, **Learning** and **Progress**. Today focuses on actionable school information; Assignments offers To do / Completed / All work with priority or week grouping; teacher posts and mail share an inbox with private Reviewed / Undo controls. Review flags are saved in this browser for each student, and edited posts return to Not reviewed. Refresh progress no longer blocks reading saved data. Student-specific preferences and reading position are preserved during refreshes; resources include week filter buttons and visible Open actions on narrow screens. Existing settings, downloaded files and local assignment completion records are preserved.
 
 Version **1.2.24** repairs repeated `http://` / `https://` prefixes across school resources, reads the actual destination of hyperlinks instead of turning their labels into addresses, deduplicates corrected links and rejects invalid URLs. The first school update refreshes old detail pages and enabled Topics covered weeks once to recover original targets, then returns to normal incremental checks. Corrected cached failures are marked as awaiting a real recheck. Existing data and settings are preserved.
