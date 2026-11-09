@@ -2,10 +2,10 @@
 
 set -euo pipefail
 
-VERSION="v1.2.27"
+VERSION="v1.2.28"
 REPOSITORY="a-abdelghany/schooleverywhere-parent-downloads"
 FILE_NAME="SchoolEverywhere-Parent-macOS.dmg"
-EXPECTED_SHA256="2c60e3eb877e4f1763bc86b2b85db50ecd0ff9aab4a52da9785b2c81fa6a4715"
+EXPECTED_SHA256="0bbbf2a62f53156f44173f016f4eb156cd3a7e3b09df59fddac4a1cb3612b14c"
 DOWNLOAD_URL="https://github.com/${REPOSITORY}/releases/download/${VERSION}/${FILE_NAME}"
 
 TEMP_DIR="$(mktemp -d "${TMPDIR:-/tmp}/schooleverywhere-parent.XXXXXX")"

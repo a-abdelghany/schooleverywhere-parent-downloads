@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.28** combines verified identical teacher posts sent within two minutes into one card, with an "identical posts combined" count. Messages, links and downloaded attachment contents must match; unavailable files keep posts separate. Original records and private Reviewed / Undo controls are preserved. This local comparison adds no school requests.
+
 Version **1.2.27** maps missing academic subjects in mail using the teacher's single known subject for this student. It removes message titles from the subject filter, preserves Reviewed flags, and leaves ambiguous matches under General / Unclassified. The update progress bar now uses the available width and wraps its stages instead of scrolling horizontally. Saved mail is corrected without a full school refresh.
 
 Version **1.2.26** adds a direct desktop sidebar and one narrow-screen menu. Attendance, Timetable, Resources and Student marks have fixed destinations; Today, the combined inbox and non-blocking refresh remain in place. Settings and Update details are at the bottom of navigation.
