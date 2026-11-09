@@ -28,6 +28,8 @@ The downloads contain no usernames, passwords, student information, reports, or 
 
 ## Direct downloads
 
+Version **1.2.27** maps missing academic subjects in mail using the teacher's single known subject for this student. It removes message titles from the subject filter, preserves Reviewed flags, and leaves ambiguous matches under General / Unclassified. The update progress bar now uses the available width and wraps its stages instead of scrolling horizontally. Saved mail is corrected without a full school refresh.
+
 Version **1.2.26** adds a direct desktop sidebar and one narrow-screen menu. Attendance, Timetable, Resources and Student marks have fixed destinations; Today, the combined inbox and non-blocking refresh remain in place. Settings and Update details are at the bottom of navigation.
 
 Version **1.2.25** introduces a workflow-first dashboard with **Today**, **Assignments**, **School updates**, **Learning** and **Progress**. Today focuses on actionable school information; Assignments offers To do / Completed / All work with priority or week grouping; teacher posts and mail share an inbox with private Reviewed / Undo controls. Review flags are saved in this browser for each student, and edited posts return to Not reviewed. Refresh progress no longer blocks reading saved data. Student-specific preferences and reading position are preserved during refreshes; resources include week filter buttons and visible Open actions on narrow screens. Existing settings, downloaded files and local assignment completion records are preserved.
