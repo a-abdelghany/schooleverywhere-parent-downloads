@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "latestVersion": "1.2.27",
-  "publishedAt": "2026-11-09T07:46:36+00:00",
-  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.27",
+  "latestVersion": "1.2.28",
+  "publishedAt": "2026-11-09T08:42:57+00:00",
+  "releasePage": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/tag/v1.2.28",
   "releaseNotes": [
-    "Mail without a recognized academic subject is mapped to its teacher's single known subject, using this student's saved assignments and teacher updates. Message titles no longer populate the subject filter.",
-    "Unknown senders and teachers with multiple subjects remain General / Unclassified rather than being guessed. Original titles, private Reviewed flags and linked resources are preserved.",
-    "The update progress bar uses the available width. Section indicators wrap on narrow screens instead of requiring horizontal scrolling.",
-    "The subject correction applies to existing saved mail without a full LMS refresh. Credentials, schedules, history and assignment status are preserved; school access remains read-only."
+    "Identical teacher posts within two minutes appear as one card with the number of combined posts. Dashboard counts reflect the combined cards.",
+    "Combining requires matching teacher, subject, full message, links and verified attachment contents. Changed or unavailable attachments keep posts separate.",
+    "Original records remain saved. Existing Reviewed flags are preserved, and Review or Undo applies to every copy in a combined card.",
+    "Comparison uses local files with cached content hashes and adds no LMS requests. Credentials, schedules, history and assignment status are preserved; school access remains read-only."
   ],
   "platforms": {
     "macos": {
       "kind": "dmg",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.27/SchoolEverywhere-Parent-macOS.dmg",
-      "sha256": "2c60e3eb877e4f1763bc86b2b85db50ecd0ff9aab4a52da9785b2c81fa6a4715",
-      "size": 14187872
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.28/SchoolEverywhere-Parent-macOS.dmg",
+      "sha256": "0bbbf2a62f53156f44173f016f4eb156cd3a7e3b09df59fddac4a1cb3612b14c",
+      "size": 14246360
     },
     "windows": {
       "kind": "installer",
-      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.27/SchoolEverywhere-Parent-Windows-Setup.exe",
-      "sha256": "7d8c003ff98af75f2a60f0780d9f961494269ded83bfd251cbc59ea26491c3ee",
-      "size": 11977921
+      "url": "https://github.com/a-abdelghany/schooleverywhere-parent-downloads/releases/download/v1.2.28/SchoolEverywhere-Parent-Windows-Setup.exe",
+      "sha256": "c072ffc15e60cdfa3f973b447d69cf9f6e9cb22f83ce300d2a68426fbd4f590f",
+      "size": 11981489
     }
   }
 }
